@@ -1,0 +1,39 @@
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-0.5rem);
+    }
+}
+
+.Icon:hover{
+    cursor: pointer;
+    background-image: url(../img/Icon-1.png);
+}
+
+.navBar a:hover{
+    color: black;
+    font-size: 17px;
+}
+
+.galery div:hover{
+    flex: 1.3; 
+}
+
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.img-container:hover{
+    background-image: url(../img/Wallpaper-DonkeyKong-2.gif);
+}
+
+.img-container-2:hover{
+    background-image: url(../img/Wallpaper-SonicMania-Gameplay.gif);
+}
+
+.grid-container div:hover{
+    transform: scale(1.2);
+}
